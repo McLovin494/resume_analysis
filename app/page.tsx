@@ -67,14 +67,7 @@ export default function LandingPage() {
                 How it works
               </a>
             </li>
-            <li>
-              <a
-                href="#features"
-                className="text-[13px] text-stone-500 hover:text-stone-900 transition-colors no-underline font-medium"
-              >
-                Features
-              </a>
-            </li>
+        
             <li>
               <a
                 href="#reviews"
@@ -85,12 +78,7 @@ export default function LandingPage() {
             </li>
           </ul>
           <div className="flex items-center gap-2.5">
-            <Link
-              href="#"
-              className="px-4 py-2 rounded-lg border border-stone-200 text-[13px] font-medium text-stone-700 hover:bg-stone-100 transition-all no-underline"
-            >
-              Sign in
-            </Link>
+          
             <Link
               href="/analyse"
               className="px-4 py-2 rounded-lg bg-stone-900 text-white text-[13px] font-semibold hover:bg-stone-800 transition-colors no-underline flex items-center gap-1.5"
